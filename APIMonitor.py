@@ -7,7 +7,7 @@ from datetime import datetime
 import time
 import pymsteams
 import ast
-file = open("C:/Users/olapadent/OneDrive - Sterling Bank Plc/Documents/PythonProjects/PKfile.txt", "r")
+file = open("C:/Users/tmacs/Documents/PythonProjects/PKfile.txt", "r")
 contents = file.read()
 d = ast.literal_eval(contents)
 file.close()
@@ -65,7 +65,7 @@ while(value):
         df_unavailerror = ''.join(str(df_unavailable["Status"])) 
 #         print(df_unavailable)
 #         print(df_unavail,df_unavailerror)
-        myTeamsMessage = pymsteams.connectorcard("https://sterlingbankng.webhook.office.com/webhookb2/c891340c-96b6-4fe0-9543-d9d129da311f@4c8a9f7a-11fc-4fc2-9099-0b68f72a197e/IncomingWebhook/7c620a17307544bf8443a2b39ca2c315/7e2d863b-0ede-4e75-b051-354fed630beb")
+        myTeamsMessage = pymsteams.connectorcard("https://webhookb2/c891340c-96b6-4fe0-9543-d9d129da311f@4c8a9f7a-11fc-4fc2-9099-0b68f72a197e/IncomingWebhook/7c620a17307544bf8443a2b39ca2c315/7e2d863b-0ede-4e75-b051-354fed630beb")
         myTeamsMessage.text("Dear Platform Support \n, please be informed that the following service(s) are currently unreacheable " + df_unavail + ' ' + df_unavailerror )
         myTeamsMessage.send()
     except Exception as e:
