@@ -1,1 +1,1 @@
-{"user":"test_usr","key":"Sterling123","MSSQLSERVER":"10.0.41.101"}
+{"user":"username","key":"pwd","MSSQLSERVER":"10.0.30.73"}
