@@ -1,21 +1,4 @@
 APP,URLs
-MasterCardAPI,http://10.0.0.229:770/
-PayCodeWS,http://10.0.0.229:809/
-CashOutAPI,http://10.0.0.229/CashOutAPI
-ForexService,http://10.0.0.229/ForexService
-Acecoin,https://acecoinapi.tech
-Sterlingcadapi,https://sterlingcadapi.appsuport.p.azurewebsites.net
-Switchapi,https://switchapi.appsuport.p.azurewebsites.net
-GIGIT,https://gigitapi.sterling.ng
-OneBank,http://10.0.0.189/OneBank/swagger/ui/index#!/Wallet/Wallet_WalletToWalletTransfers
-BSF,https://bsfapi.appsuport.p.azurewebsites.net/swagger/index.html
-Loan Performance,https://sterlingdfsapi.sterling.ng/Api/GET-api-LoanReport-GetLoanPerformance-arrangementId
-Account API,https://sterlingacctapi.appsuport.p.azurewebsites.net/index.html
-SocialPay,https://socialpayapi.appsuport.p.azurewebsites.net/swagger/index.html
-Specializedcommlending,https://specializedcommlendingapi.appsuport.p.azurewebsites.net/swagger/index.html
-Startrite,https://startritetbhapi.appsuport.p.azurewebsites.net/
-Giving,https://givingapinew.appsuport.p.azurewebsites.net/swagger/index.html
-CoralPay,https://coralpayapi.appsuport.p.azurewebsites.net/swagger/ui/index
-BusinessLending,https://businesslendingapilive.appsuport.p.azurewebsites.net/swagger/index.html
-Credit Portal,https://creditreportapi.appsuport.p.azurewebsites.net/index.html
-Doubble API,https://doubbleapi.appsuport.p.azurewebsites.net/
+ekedpayAPI,http://100.0.0.25:448/
+PaymeS,http://100.0.0.20:732/upe
+Cash,http://100.0.0.13/myApp
